@@ -1,0 +1,9 @@
+MovieInfo say about {Name}
+MovieInfo say details about {Name}
+MovieInfo find about {Name}
+MovieInfo about {Name}
+FavouriteGenre {Genre} is my favourite genre
+FavouriteGenre my favourite genre is {Genre}
+FavouriteGenre set my favourite genre as {Genre}
+AMAZON.YesIntent yes
+AMAZON.NoIntent no

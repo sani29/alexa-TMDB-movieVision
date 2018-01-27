@@ -1,0 +1,37 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "FavouriteGenre",
+      "slots": [
+        {
+          "name": "Genre",
+          "type": "GENRE_LIST"
+        }
+      ]
+    },
+    {
+      "intent": "MovieInfo",
+      "slots": [
+        {
+          "name": "Name",
+          "type": "MOVIE_NAMES"
+        }
+      ]
+    },
+  ]
+}

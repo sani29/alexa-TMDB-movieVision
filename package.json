@@ -1,0 +1,29 @@
+{
+  "name": "movie-vision",
+  "version": "1.0.0",
+  "description": "Alexa skill to get movie info from TMDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sani29/alexa-movieVision.git"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "TMDB"
+  ],
+  "author": "Sanidhya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sani29/alexa-movieVision/issues"
+  },
+  "homepage": "https://github.com/sani29/alexa-movieVision#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "express": "^4.16.2",
+    "le_node": "^1.7.1"
+  }
+}
